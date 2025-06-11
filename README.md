@@ -1,27 +1,60 @@
-# EssentialsPractice
+# Investments Calculator (Angular)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.0-next.2.
+![App Screenshot](public/investment-calculator-app.png)
 
-## Development server
+This project is an **Investments Calculator** built with Angular. It allows users to input investment parameters and calculates the growth of their investment over time, displaying results in a table format.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Features
+- Input initial investment, annual investment, expected return, and duration
+- Calculates yearly investment growth and interest
+- Displays results in a user-friendly table
 
-## Code scaffolding
+## Technologies Used
+- **Angular**: ^18.0.0
+- **TypeScript**: ~5.4.2
+- **RxJS**: ~7.8.0
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Getting Started
 
-## Build
+### Prerequisites
+- [Node.js](https://nodejs.org/) (v18 or higher recommended)
+- [Angular CLI](https://angular.io/cli) (v18)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Setup
+1. **Install dependencies**
+   ```powershell
+   npm install
+   ```
+2. **Run the development server**
+   ```powershell
+   ng serve
+   ```
+   Navigate to [http://localhost:4200/](http://localhost:4200/) in your browser.
 
-## Running unit tests
+### Build for Production
+```powershell
+ng build
+```
+The build artifacts will be stored in the `dist/` directory.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Running Tests
+- **Unit tests:**
+  ```powershell
+  ng test
+  ```
+- **End-to-end tests:**
+  (Add a package for e2e testing if needed, then run)
+  ```powershell
+  ng e2e
+  ```
 
-## Running end-to-end tests
+## Project Structure
+- `src/app/` - Main application code
+- `public/` - Static assets (images, favicon)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Further Help
+- Angular CLI: `ng help`
+- [Angular CLI Documentation](https://angular.io/cli)
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+---
+*Generated on June 11, 2025*
